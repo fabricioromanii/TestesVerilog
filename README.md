@@ -1,11 +1,11 @@
-### TestesVerilog
+# TestesVerilog
 
 Alguns exercicios e testes feitos em verilog;
 Matéria de Sistemas Digitais;
 
 ## PARA EXECUTAR UM ARQUIVO NO TERMINAL:
 
-# Tutorial que eu segui para fazer a instalação verilog/gtkwave: https://www.youtube.com/watch?v=3Xm6fgKAO94&t=509s;
+#### Tutorial que eu segui para fazer a instalação verilog/gtkwave: https://www.youtube.com/watch?v=3Xm6fgKAO94&t=509s;
 
 > > iverilog -o ex2.vvp ex2.v
 
