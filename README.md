@@ -11,7 +11,7 @@ Matéria de Sistemas Digitais;
 
 > > vvp ex2.vvp
 
-> > gtkwave
+> > gtkwave arquivo.vcd
 
 Verilog é uma linguagem de descrição de hardware;
 Usado para modelar sistemas eletronicos ao nivel do circuito;

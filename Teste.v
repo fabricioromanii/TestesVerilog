@@ -1,8 +1,5 @@
 //verilog bem simples, só possui um modulo chamado testbench dentro ele;
 
-
-
-
 module testbench;
 
     reg x;//1 registrador de 1 bit chamado "x"; 
@@ -15,16 +12,15 @@ module testbench;
 
     initial begin 
 
-        $dumpvars;
+        $dumpvars; //se esquecer essa linha, nao vai gerar o arquivo dump.vcd;
 
         x <= 0;
         num <= 0;
-
         
         #500;  //executa por 500 unidades de tempo;
 
-        $finish; //termina
-
+        $finish; //termina; Se esquecer essa linha, a simulação roda por um tempo indeterminado;
+ 
     end
 
 endmodule
