@@ -1,7 +1,7 @@
 module ex1(A,B);
 
-input A;
-output B;
+input A;  //declarar uma entrada;
+output B; //declarar uma saida;
 
 assign B=A;
 
